@@ -14,6 +14,7 @@
 		D2AC129D1E1F9AA0008A6C95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AC129B1E1F9AA0008A6C95 /* LaunchScreen.storyboard */; };
 		D2AC12A81E1F9AA0008A6C95 /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC12A71E1F9AA0008A6C95 /* DemoTests.swift */; };
 		D2AC12B31E1F9AA0008A6C95 /* DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC12B21E1F9AA0008A6C95 /* DemoUITests.swift */; };
+		D2AC12C11E1FA12F008A6C95 /* notification 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = D2AC12C01E1FA12F008A6C95 /* notification 1.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D2AC12AE1E1F9AA0008A6C95 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AC12B21E1F9AA0008A6C95 /* DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITests.swift; sourceTree = "<group>"; };
 		D2AC12B41E1F9AA0008A6C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2AC12C01E1FA12F008A6C95 /* notification 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "notification 1.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				D2AC12991E1F9AA0008A6C95 /* Assets.xcassets */,
 				D2AC129B1E1F9AA0008A6C95 /* LaunchScreen.storyboard */,
 				D2AC129E1E1F9AA0008A6C95 /* Info.plist */,
+				D2AC12C21E1FA137008A6C95 /* Sounds */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -123,6 +126,14 @@
 				D2AC12B41E1F9AA0008A6C95 /* Info.plist */,
 			);
 			path = DemoUITests;
+			sourceTree = "<group>";
+		};
+		D2AC12C21E1FA137008A6C95 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D2AC12C01E1FA12F008A6C95 /* notification 1.wav */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +249,7 @@
 				D2AC129D1E1F9AA0008A6C95 /* LaunchScreen.storyboard in Resources */,
 				D2AC129A1E1F9AA0008A6C95 /* Assets.xcassets in Resources */,
 				D2AC12981E1F9AA0008A6C95 /* Main.storyboard in Resources */,
+				D2AC12C11E1FA12F008A6C95 /* notification 1.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
